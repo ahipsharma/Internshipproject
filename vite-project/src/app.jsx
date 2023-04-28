@@ -1,5 +1,6 @@
 // import { useState } from 'react'
 import './App.css'
+import Login from './components/login'
 // import img from './assets/Group.png'
 // import SignUp from './components/signup'
 import Page from './components/page'
@@ -12,7 +13,8 @@ function App() {
   return (
     <div className="flex items-center">
       {/* <SignUp /> */}
-      <Page />
+      <Login />
+      {/* <Page /> */}
     </div>
   )
 }
