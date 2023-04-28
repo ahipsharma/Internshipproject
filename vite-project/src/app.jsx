@@ -2,7 +2,7 @@
 import './App.css'
 import Login from './components/login'
 // import img from './assets/Group.png'
-// import SignUp from './components/signup'
+import SignUp from './components/signup'
 import Page from './components/page'
 // import bg from './assets/Background.png'
 // import { BsFacebook } from 'react-icons/bs'
@@ -11,10 +11,10 @@ import Page from './components/page'
 // import Body from './components/body'
 function App() {
   return (
-    <div className="flex items-center">
-      {/* <SignUp /> */}
+    <div className="flex flex-col items-center">
+      <SignUp />
       <Login />
-      {/* <Page /> */}
+      <Page />
     </div>
   )
 }
